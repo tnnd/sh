@@ -28,7 +28,7 @@ sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 apt-get update && apt-get -y install qbittorrent-nox  
 qbittorrent-nox
 
-#一键安装开启原版BBR  
+__#一键安装开启原版BBR__  
 curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash
 
 https://github.com/Hibbiki/chromium-win32/releases
