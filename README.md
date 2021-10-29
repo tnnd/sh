@@ -14,8 +14,6 @@ echo "deb http://nginx.org/packages/debian/ stretch nginx" >> /etc/apt/sources.l
 curl -L http://nginx.org/keys/nginx_signing.key | apt-key add  
 apt update && apt install nginx && systemctl enable nginx
 
-__#xrdp_0.9.0 for Xenial__  
-add-apt-repository ppa:mirabilos/ppa  
 __#xrdp_0.9.4-1 for xenial__  
 add-apt-repository ppa:hermlnx/xrdp  
 __#firefox-esr for ubuntu__  
