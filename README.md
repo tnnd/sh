@@ -30,6 +30,3 @@ __#一键安装开启原版BBR__
 curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash
 
 https://github.com/Hibbiki/chromium-win32/releases
-
-__#A1P-5T__  
-https://victoriaca-my.sharepoint.com/:f:/g/personal/founder_ncov_office_gy/EkKmTZPQrrRGunm7upjSOxEBMhoUhUqsjX1hsfh1bpIA7A?e=X6epHC
