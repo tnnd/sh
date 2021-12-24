@@ -9,10 +9,6 @@ curl -L https://git.io/fhjPW | bash
 
 __#nginx for ubuntu__  
 add-apt-repository ppa:nginx/stable  
-__#nginx for debian STRETCH__  
-echo "deb http://nginx.org/packages/debian/ stretch nginx" >> /etc/apt/sources.list  
-curl -L http://nginx.org/keys/nginx_signing.key | apt-key add  
-apt update && apt install nginx && systemctl enable nginx
 
 __#xrdp_0.9.4-1 for xenial__  
 add-apt-repository ppa:hermlnx/xrdp  
@@ -30,3 +26,6 @@ __#一键安装开启原版BBR__
 curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash
 
 https://github.com/Hibbiki/chromium-win32/releases
+
+__#OneDrive-5T（可上传）__
+https://ruyou-my.sharepoint.com/:f:/g/personal/fit_ruyou_onmicrosoft_com/ElNo1ymz9w9Dn6cYeEJXX4EBJ9zZIMoM2kmE4eyFprm6mg?e=hUXSzU
