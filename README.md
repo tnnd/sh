@@ -27,5 +27,14 @@ curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash
 
 https://github.com/Hibbiki/chromium-win32/releases
 
-__#OneDrive-5T（可上传）__  
-https://ruyou-my.sharepoint.com/:f:/g/personal/fit_ruyou_onmicrosoft_com/ElNo1ymz9w9Dn6cYeEJXX4EBJ9zZIMoM2kmE4eyFprm6mg?e=hUXSzU
+__#docker模拟云手机__  
+```
+apt install linux-modules-extra-`uname -r`
+modprobe binder_linux devices="binder,hwbinder,vndbinder"
+modprobe ashmem_linux
+```
+```
+docker run -itd --rm --memory-swappiness=0   --privileged \
+      -v /root/data:/data -p 35555:5555   redroid/redroid:11.0.0-latest \
+      androidboot.redroid_dpi=240 redroid.gpu.mode=guest
+```
