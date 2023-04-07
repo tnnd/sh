@@ -15,7 +15,8 @@ add-apt-repository ppa:hermlnx/xrdp
 __#firefox-esr for ubuntu__  
 add-apt-repository ppa:mozillateam/ppa -y && apt update && apt install firefox-esr  
 __#chromium in Docker__  
-chromium-browser --disable-dev-shm-usage --disable-gpu --no-sandbox
+https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
+chromium-browser --disable-dev-shm-usage --no-sandbox --disable-gpu
 
 __#qBittorrent Stable__  
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable  
