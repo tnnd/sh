@@ -16,6 +16,7 @@ __#firefox-esr for ubuntu__
 add-apt-repository ppa:mozillateam/ppa -y && apt update && apt install firefox-esr  
 __#chromium in Docker__  
 https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb  
+https://github.com/Hibbiki/chromium-win32/releases  
 chromium-browser --disable-dev-shm-usage --no-sandbox --disable-gpu
 
 __#qBittorrent Stable__  
@@ -27,8 +28,6 @@ __#一键安装开启原版BBR__
 curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash  
 SW=/var/swapfile && fallocate -l 1g $SW && chmod 600 $SW && mkswap $SW && swapon $SW  
 echo "$SW none swap sw 0 0" >> /etc/fstab
-
-https://github.com/Hibbiki/chromium-win32/releases
 
 __#docker模拟云手机__  
 ```
