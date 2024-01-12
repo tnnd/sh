@@ -26,8 +26,10 @@ qbittorrent-nox
 
 __#一键安装开启原版BBR__  
 curl -sL https://github.com/teddysun/across/raw/master/bbr.sh | bash  
-```SW=/var/swapfile && fallocate -l 1g $SW && chmod 600 $SW && mkswap $SW && swapon $SW```  
-```echo "$SW none swap sw 0 0" >> /etc/fstab```
+wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh  
+wget https://github.com/qwegg/dd/raw/master/Linux_reinstall/InstallNET.sh  
+SW=/var/swapfile && fallocate -l 1g $SW && chmod 600 $SW && mkswap $SW && swapon $SW  
+echo "$SW none swap sw 0 0" >> /etc/fstab
 
 __#释放磁盘保留空间__  
 ```tune2fs -m 1 /dev/sda1```
